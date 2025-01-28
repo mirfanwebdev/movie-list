@@ -3,22 +3,18 @@
 // import Navbar from './components/Navbar.vue'
 import SectionContainer from './components/SectionContainer.vue';
 import ListContainer from './components/ListContainer.vue';
+import TrailerContainer from './components/TrailerContainer.vue';
 </script>
 
 <template>
-  <!-- <Navbar /> -->
-  <!-- <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div> -->
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
-
-   <SectionContainer>
+   <SectionContainer title="Trending Now">
     <ListContainer />
+   </SectionContainer>
+   <SectionContainer title="Latest Trailer" :isBackground=true>
+    <TrailerContainer />
+   </SectionContainer>
+   <SectionContainer title="Whats Popular">
+    <ListContainer /> 
    </SectionContainer>
 </template>
 
