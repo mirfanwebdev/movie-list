@@ -4,6 +4,7 @@
 import SectionContainer from './components/SectionContainer.vue';
 import ListContainer from './components/ListContainer.vue';
 import TrailerContainer from './components/TrailerContainer.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import TrailerContainer from './components/TrailerContainer.vue';
    <SectionContainer title="Whats Popular">
     <ListContainer /> 
    </SectionContainer>
+   <Footer />
 </template>
 
 <style scoped>
