@@ -5,9 +5,11 @@ import SectionContainer from './components/SectionContainer.vue';
 import ListContainer from './components/ListContainer.vue';
 import TrailerContainer from './components/TrailerContainer.vue';
 import Footer from './components/Footer.vue';
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
+   <Navbar />
    <SectionContainer title="Trending Now">
     <ListContainer />
    </SectionContainer>
